@@ -24,6 +24,12 @@ Test your methods in index.js:
 
 Works? Add, commit, push :)
 
+### Filter movies by a title part
+
+Add a new function filterMovies(titlePart)
+This function loops through all the movies and checks if the given "titlePart" is part of the title (case insensitive!).
+Use the array filter method for that.
+
 ### Adding multiple movies at once
 
 Adapt your method addMovie first:
@@ -67,12 +73,6 @@ We now adapt our generation of IDs in the addMovie function to create truly uniq
     - this function loops through our array of movies
     - it checks if the ID is a number (google how to check for a number)
     - if it is a number: replace the id with a uuid
-
-### Filter movies by a title part
-
-Add a new function filterMovies(titlePart)
-This function loops through all the movies and checks if the given "titlePart" is part of the title (case insensitive!).
-Use the array filter method for that.
 
 ## Rules
 
